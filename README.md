@@ -1,6 +1,6 @@
 ``` diff
 
-+++ Strict build after 4:30 PM M-F (for related/releveant in-house corporate (US/UK counsel)
++++ Strict build after 4:30 PM M-F (for related/releveant in-house corporate (US/UK) counsel)
 (accounting/finance & operations)
 1. Time is a currency that cannot ever be purchased or "buy-back" -- no medium of currency can or will ever buy back TIME. If we could, it will never be the original blueprint; financials + projected future
 2. Optimize/consolodate repetitive tasks with few human intervention, streamlining operations and reducing overhead costs; COGS account + adhoc reports
