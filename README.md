@@ -13,7 +13,7 @@ Checks & validtes DNS records for given domain/subdomain:
   - CNAME record
   
   Market Penetration
-  - TBH
+  - TBD
 
 ```
 MIT License
