@@ -6,18 +6,20 @@ function App() {
     <div className="App">
       <header className="App-header">
         { /* play with three.js or SVG....?  hmm.. <img src={logo} className="App-logo" alt="logo" />*/}
-        <p>
+      </header>
+      <body>
+      <p>
           DNS Automation Lookup 
         </p>
-        <input type="text" placeholder="Domain" />
+        <input type="text" alt="domain_input_field" placeholder="Domain" />
           <select name="records" id="records-id">
           <option value="mx"> MX Record</option>
           <option value="mx"> TXT Record</option>
           <option value="mx"> CNAME Record</option>
           
           </select>
-        <button> Search Records</button>
-      </header>
+      </body>
+      <button> Search Records</button>
     </div>
   );
 }
