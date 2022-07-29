@@ -9,8 +9,8 @@
 
 
 .App-header {
-  background-color: #070367;
-  min-height: 100vh;
+  background-color: #030778;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,8 +19,11 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
+input {
+  width: 20rem;
+  height: 2rem;
+  border-color: #ffffff;
+  
+}
 
