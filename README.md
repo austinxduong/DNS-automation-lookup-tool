@@ -1,4 +1,4 @@
-* to make your life easier, to those who "get it"
+* to make your life easier, free to all
 
 ``` diff
 
