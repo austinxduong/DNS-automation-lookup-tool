@@ -1,8 +1,8 @@
 * to make your life easier, free to all
 
 ``` diff
-* drawing board (breaking into smaller pieces) 
-
+* resimplfying
+ updated Jul 30
 Checks & validtes DNS records for given domain/subdomain: 
   - MX record
   - TXT record
