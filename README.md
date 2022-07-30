@@ -1,25 +1,12 @@
 * to make your life easier, free to all
 
 ``` diff
+* drawing board (breaking into smaller pieces) 
 
-+++ Strict build after 4:30 PM M-F (for related/releveant in-house corporate (US/UK) counsel)
-
-Internal Controls: 
-
-(accounting/finance & operations)
-1. Time is a currency that cannot ever be purchased or "buy-back" -- no medium of currency can or will ever buy back TIME. If we could, it will never be the original blueprint; financials + projected future
-2. Optimize/consolodate repetitive tasks with few/little-- to no human intervention, streamlining operations and reducing overhead costs; COGS account + adhoc reports
-3. High yield on oppurtunity cost; focusing on nuturing HIGH-VALUE business relationships & major functions of DEPT, solving REAL problems, and improving/organizing stragety of business operations; revenue growth + P/L management
-
-(IT operations)
 Checks & validtes DNS records for given domain/subdomain: 
   - MX record
   - TXT record
   - CNAME record
-  
-  Market Penetration
-  - TBD
-
 
 Stretch goals:
  - when CNAME is selected via. drop-down, provides end-user with proper text format to target CNAME in DNS config.
