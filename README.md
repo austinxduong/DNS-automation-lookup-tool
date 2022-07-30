@@ -18,6 +18,9 @@ Checks & validtes DNS records for given domain/subdomain:
   Market Penetration
   - TBD
 
+
+Stretch goals:
+ - when CNAME is selected via. drop-down, provides end-user with proper text format to target CNAME in DNS config.
 ```
 MIT License
 
