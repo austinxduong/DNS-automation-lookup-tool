@@ -1,3 +1,5 @@
+* to make your life easier, to those who "get it"
+
 ``` diff
 
 +++ Strict build after 4:30 PM M-F (for related/releveant in-house corporate (US/UK) counsel)
