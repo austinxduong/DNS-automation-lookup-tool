@@ -3,7 +3,7 @@
 ``` diff
 * resimplfying
  updated Jul 30, 2022
-Checks & validtes DNS records for given domain/subdomain: 
+Checks & validates DNS records for given domain/subdomain: 
   - MX record
   - TXT record
   - CNAME record
