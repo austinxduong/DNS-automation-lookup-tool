@@ -9,7 +9,7 @@ function App() {
       DNS Automation Lookup 
         { /* play with three.js or SVG....?  hmm.. <img src={logo} className="App-logo" alt="logo" />*/}
       </header>
-      <DomainInput />
+      <DomainInput placeholder="Domain"/>
     </div>
   );
 }
