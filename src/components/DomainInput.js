@@ -5,20 +5,20 @@ import './DomainInput.css';
 const DomainInput = (props) => {
 
   return (
-    <div className="domainInput">
+    <div>
       <body>
-          <input type="text" alt="domain_input_field" placeholder={props.placeholder} ref={props.refer} required/>
-            <select name="records" id="records-id">
-            <option value="mx"> MX Record</option>
-            <option value="mx"> TXT Record</option>
-            <option value="mx"> CNAME Record</option>
-            <input type="submit"></input>
-            </select>
+        <input type="text" alt="domain_input_field" placeholder={props.placeholder} ref={props.refer} required />
+          <select name="records" id="records-id">
+          <option value="mx"> MX Record</option>
+          <option value="mx"> TXT Record</option>
+          <option value="mx"> CNAME Record</option>
+          <input type="submit"></input>
+          </select>
         </body>
     </div>
-  )
+  );
 }
 
-export default DomainInput
+export default DomainInput;
 
 

@@ -19,6 +19,13 @@
   color: white;
 }
 
+div.search {
+  padding-top: 10px ;
+  font-size: 30px;
+  margin: 1opx;
+  font-family: 'Courier New', Courier, monospace;
+}
+
 
 /* input {
   width: 20rem;

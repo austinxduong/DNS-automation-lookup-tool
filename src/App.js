@@ -5,7 +5,7 @@ import DomainInput from './components/DomainInput';
 
 function App() {
 
-  // const [domain, setDomain] = useState("")
+  const [domain, setDomain] = useState("")
 const domainInputRef = useRef()
 
 const handleSubmit = (e) => {
@@ -20,7 +20,8 @@ const handleSubmit = (e) => {
       DNS Automation Lookup 
         { /* play with three.js or SVG....?  hmm.. <img src={logo} className="App-logo" alt="logo" />*/}
       </header>
-        <form id="form" method="get" action="/action_page.php" onSubmit={handleSubmit}>
+      <div class ="search"> {domain} </div>
+        <form id="form" method="get" action="/action_page.php" onSubmit={handleSubmit} onChange={e => setDomain(e.target.value)}>
           <DomainInput placeholder="Domain" refer={domainInputRef} />
           <button> Search Records</button>
         </form>
