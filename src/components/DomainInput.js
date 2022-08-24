@@ -7,7 +7,7 @@ const DomainInput = (props) => {
     <div>
     <body>
         <form id="form" method="get" action="/action_page.php">
-          <input type="text" alt="domain_input_field" placeholder={props.placeholder} required/>
+          <input type="text" alt="domain_input_field" placeholder={props.placeholder} onChange={e => props.setDomain(e.target.value)}required/>
             <select name="records" id="records-id">
             <option value="mx"> MX Record</option>
             <option value="mx"> TXT Record</option>
