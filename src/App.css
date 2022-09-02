@@ -16,6 +16,10 @@ div.search {
   font-family: 'Courier New', Courier, monospace;
 }
 
+::placeholder {
+  color: azure;
+}
+
 
 
 
