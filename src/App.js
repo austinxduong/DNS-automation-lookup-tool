@@ -2,11 +2,22 @@
 import { useRef, useState } from 'react';
 import './App.css';
 import DomainInput from './components/DomainInput';
+import Header from './components/Header';
 
 function App() {
 
-  const [domain, setDomain] = useState("")
+const [domain, setDomain] = useState("")
+// const [record, setRecord] = useState(null);
 const domainInputRef = useRef()
+
+// function getRecordType() {
+//   switch(record) {
+//     case "cname":
+//       return <input type="text" placeholder="account_number"></input>
+//     default:
+//       return null;
+//   }
+// }
 
 const handleSubmit = (e) => {
   e.preventDefault();
@@ -16,15 +27,17 @@ const handleSubmit = (e) => {
 
   return (
     <div className="App">
-      <header className="App-header">
-      DNS Automation Lookup 
-        { /* play with three.js or SVG....?  hmm.. <img src={logo} className="App-logo" alt="logo" />*/}
-      </header>
-      <div class ="search"> {domain} </div>
-        <form id="form" method="get" action="/action_page.php" onSubmit={handleSubmit} onChange={e => setDomain(e.target.value)}>
-          <DomainInput placeholder="Domain" refer={domainInputRef} />
-          <button> Search Records</button>
-        </form>
+      <Header />
+      <body>
+        <div class ="search"> {domain} </div>
+          <form id="form" method="get" action="/action_page.php" onSubmit={handleSubmit} onChange={e => setDomain(e.target.value)}>
+            <DomainInput placeholder="Domain" id="domain-input-placeholder" refer={domainInputRef} />
+            <button> Search Records</button>
+            {/* {getRecordType()} */}
+          </form>
+      </body>
+
+      <footer> </footer>
     </div>
   );
 }
