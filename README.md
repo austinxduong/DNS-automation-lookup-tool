@@ -12,7 +12,17 @@ Stretch goals:
  - when CNAME is selected via. drop-down, provides end-user with proper text format to target CNAME in DNS config.
 + Text to Display
 + Refactor to Component Architecture
+
 ```
+
+Test API integration (TXT record):
+```diff
++ succesfully returns object of TXT record values in string
+
+```
+
+![Screen Shot 2022-09-02 at 9 13 47 PM](https://user-images.githubusercontent.com/78833034/188255482-c650704d-1963-450f-b01f-f315e9d69400.png)
+
 
 MIT License
 
