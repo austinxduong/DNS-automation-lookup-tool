@@ -26,11 +26,13 @@ button {
   width: 7rem;
   border: none;
   border-radius: 5px;
+  
 }
 
 button:hover {
-  background-color: rgb(205, 232, 254);
-  border-color: rgb(234, 234, 240);
+  background-color: lightslategray;
+  border: solid 1px;
+  border-color: rgb(97, 138, 200);
 }
 
 
