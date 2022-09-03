@@ -20,6 +20,19 @@ div.search {
   color: azure;
 }
 
+button {
+  margin: 5px;
+  height: 1.8rem;
+  width: 7rem;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgb(205, 232, 254);
+  border-color: rgb(234, 234, 240);
+}
+
 
 
 

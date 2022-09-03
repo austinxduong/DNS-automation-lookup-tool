@@ -10,6 +10,7 @@ input {
   border-radius: 2px;
 }
 
+
 #records-input {
   margin: 2px;
   height: 28px;;
@@ -19,8 +20,10 @@ input {
   color: #ffffff;
 }
 
+#records-input:hover {
+  background-color: rgb(156, 193, 206);
+}
 
-  
 select {
     height: 3rem;
     border-radius: 5px;
