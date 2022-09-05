@@ -17,7 +17,7 @@ Stretch goals:
 
 Test API integration (TXT record):
 ```diff
-+ succesfully returns object of TXT record values in string
++ successfully returns object of TXT record values in string
   - DNSData[dnsRecords][0][rawText]
    - Append to a 2-row table
 
