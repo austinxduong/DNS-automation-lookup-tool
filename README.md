@@ -20,6 +20,7 @@ Test API integration (TXT record):
 + successfully returns object of TXT record values in string
   - DNSData[dnsRecords][0][rawText]
    - Append to a 2-row table
+   - Adopts + implements REST architechture
 
 ```
 
