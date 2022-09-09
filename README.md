@@ -12,6 +12,7 @@ Stretch goals:
  - when CNAME is selected via. drop-down, provides end-user with proper text format to target CNAME in DNS config.
 + Text to Display
 + Refactor to Component Architecture
++ Refeactor form to custom hooks
 
 ```
 
