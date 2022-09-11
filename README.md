@@ -7,6 +7,7 @@ Checks & validates DNS records for given domain/subdomain:
   - MX record
   - TXT record
   - CNAME record
+  - SSL certificate (TBD?)
 
 Stretch goals:
  - when CNAME is selected via. drop-down, provides end-user with proper text format to target CNAME in DNS config.
