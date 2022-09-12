@@ -1,7 +1,8 @@
 // import logo from './logo.svg';
 // import { useRef, useState } from 'react';
 import './App.css';
-import Form from './components/Form'
+// import Form from './components/Form'
+import FormInput from './components/FormInput';
 import Header from './components/Header';
 // import Footer from './components/Footer'
 
@@ -22,7 +23,7 @@ function App() {
     <div className="App">
       <Header />
         <body>
-          <Form />
+          <FormInput />
         </body>
 
         <footer> 
