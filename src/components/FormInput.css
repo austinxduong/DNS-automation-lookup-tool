@@ -50,8 +50,14 @@ label {
 input.domain-input-error {
     border: 1px solid;
     border-color: red;
+    background-color: rgb(221, 168, 168)
 }
 p.input-error-message {
     color: red;
     font-size: 14px;
+}
+
+button:disabled {
+    background-color: #81dcb6;
+    color: rgb(13, 0, 255);
 }
