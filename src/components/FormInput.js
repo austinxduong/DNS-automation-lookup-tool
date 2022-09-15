@@ -7,7 +7,7 @@ const onSubmit = () => {
 }
 
 const FormInput = () => {
-    const { values, errors, handleChange, handleBlur, handleSubmit } = useFormik({
+    const { values, errors, touched, handleChange, handleBlur, handleSubmit } = useFormik({
         initialValues: {
             domain: "",
         },
@@ -27,8 +27,9 @@ const FormInput = () => {
             type="domain" 
             placeholder="www.xyx.com" 
             onBlur={handleBlur} 
-            className={errors.domain ? "domain-input-error" : ""}
+            className={errors.domain && touched.domain ? "domain-input-error" : ""}
             />
+            {errors.domain && touched.domain && <p className="input-error-message">{errors.domain}</p>}
         <button type="submit"> Search Records </button>
     </form>
   )

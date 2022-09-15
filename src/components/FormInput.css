@@ -51,3 +51,7 @@ input.domain-input-error {
     border: 1px solid;
     border-color: red;
 }
+p.input-error-message {
+    color: red;
+    font-size: 14px;
+}
