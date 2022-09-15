@@ -46,3 +46,8 @@ label {
     font-size: 17px;
     font-weight: bold;
 }
+
+input.domain-input-error {
+    border: 1px solid;
+    border-color: red;
+}
