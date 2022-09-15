@@ -2,12 +2,15 @@ import { useFormik } from "formik";
 import { initSchema } from "../schemas";
 import './FormInput.css';
 
-const onSubmit = () => {
-    console.log("submitted")
+const onSubmit = async (values, actions) => {
+    console.log(values);
+    console.log(actions);
+    await new Promise ((resolve) => setTimeout(resolve, 1000))
+    actions.resetForm()
 }
 
 const FormInput = () => {
-    const { values, errors, touched, handleChange, handleBlur, handleSubmit } = useFormik({
+    const { values, errors, touched, isSubmitting, handleChange, handleBlur, handleSubmit } = useFormik({
         initialValues: {
             domain: "",
         },
@@ -30,7 +33,7 @@ const FormInput = () => {
             className={errors.domain && touched.domain ? "domain-input-error" : ""}
             />
             {errors.domain && touched.domain && <p className="input-error-message">{errors.domain}</p>}
-        <button type="submit"> Search Records </button>
+        <button disabled={isSubmitting} type="submit"> Search Records </button>
     </form>
   )
 }
