@@ -23,7 +23,8 @@ const FormInput = () => {
   return (
     <form autoComplete="off" onSubmit={handleSubmit}>
         <label htmlFor="domain">Domain</label>
-        <input  
+        <input
+            disabled={isSubmitting}  
             value={values.domain}
             onChange={handleChange}
             id="domain"         
