@@ -47,6 +47,11 @@ label {
     font-weight: bold;
 }
 
+input:disabled {
+    background-color: #43fac6;
+    opacity: 80%;
+}
+
 input.domain-input-error {
     border: 1px solid;
     border-color: red;
@@ -60,4 +65,6 @@ p.input-error-message {
 button:disabled {
     background-color: #81dcb6;
     color: rgb(13, 0, 255);
+    opacity: 80%;
 }
+
