@@ -3,6 +3,7 @@
 import { useFormik } from "formik";
 import { initSchema } from "../schemas";
 import './FormInput.css';
+import RecordSelect from "./RecordSelect";
 
 const onSubmit = async (values, actions) => {
     console.log(values);
@@ -24,6 +25,8 @@ const FormInput = () => {
 
   return (
     <form autoComplete="off" onSubmit={handleSubmit}>
+        <label htmlFor="records">Records</label>
+        <RecordSelect />
         <label htmlFor="domain">Domain</label>
         <input
             disabled={isSubmitting}  
