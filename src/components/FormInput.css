@@ -21,12 +21,6 @@ select {
     height: 3rem;
     border-radius: 5px;
     margin: 2px;
-    background-color: #808080;
-    border-radius: 5px;
-    border: none;
-}
-select:hover {
-    background-color: rgb(156, 193, 206);
 }
 
 button {
@@ -38,16 +32,12 @@ button {
     
   }
 
-button:hover {
-background-color: #32545d;
-color: #95c893;
-border: solid 1px;
-border-color: rgb(97, 138, 200);
-}
-
-select {
-    width:80px;
-}
+  button:hover {
+    background-color: #32545d;
+    color: #95c893;
+    border: solid 1px;
+    border-color: rgb(97, 138, 200);
+  }
 
 label {
     color: #95c893;

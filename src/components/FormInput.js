@@ -1,3 +1,5 @@
+
+
 import { useFormik } from "formik";
 import { initSchema } from "../schemas";
 import './FormInput.css';
@@ -13,7 +15,6 @@ const FormInput = () => {
     const { values, errors, touched, isSubmitting, handleChange, handleBlur, handleSubmit } = useFormik({
         initialValues: {
             domain: "",
-            recordType: ""
         },
         validationSchema: initSchema,
         onSubmit
@@ -23,12 +24,6 @@ const FormInput = () => {
 
   return (
     <form autoComplete="off" onSubmit={handleSubmit}>
-        <label>Record:</label>
-        <select>
-            <option value="MX">MX</option>
-            <option value="MX">TXT</option>
-            <option value="MX">CNAME</option>
-        </select>
         <label htmlFor="domain">Domain</label>
         <input
             disabled={isSubmitting}  
