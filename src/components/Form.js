@@ -2,6 +2,7 @@ import React from "react";
 import { useRef, useState } from 'react';
 import '../components/Form.css'
 import DomainInput from "./DomainInput"
+import RecordSelect from "./RecordSelect";
 
 
 
@@ -27,6 +28,7 @@ const handleSubmit = (e) => {
                     <DomainInput placeholder="Domain" id="domain-input-placeholder" refer={domainInputRef} />
                         <button> Search Records</button>
                     {/* {getRecordType()} */}
+                    <RecordSelect />
                 </form>
         </div>
     );
