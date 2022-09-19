@@ -25,7 +25,6 @@ const FormInput = () => {
 
   return (
     <form autoComplete="off" onSubmit={handleSubmit}>
-        <label htmlFor="records">Records</label>
         <RecordSelect />
         <label htmlFor="domain">Domain</label>
         <input
