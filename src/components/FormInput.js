@@ -13,7 +13,9 @@ const onSubmit = async (values, actions) => {
 }
 
 const FormInput = () => {
-    const { values, errors, touched, isSubmitting, handleChange, handleBlur, handleSubmit } = useFormik({
+    const { 
+        values, errors, touched, isSubmitting, handleChange, handleBlur, handleSubmit } = 
+        useFormik({
         initialValues: {
             domain: "",
         },
@@ -25,7 +27,9 @@ const FormInput = () => {
 
   return (
     <form autoComplete="off" onSubmit={handleSubmit}>
-        <RecordSelect />
+        <RecordSelect
+        className={errors.domain && touched.domain ? "domain-input-error" : ""} 
+        />
         <label htmlFor="domain">Domain</label>
         <input
             disabled={isSubmitting}  

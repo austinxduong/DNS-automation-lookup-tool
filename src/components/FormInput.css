@@ -57,9 +57,21 @@ input.domain-input-error {
     border-color: red;
     background-color: rgb(221, 168, 168)
 }
+
 p.input-error-message {
-    color: red;
-    font-size: 14px;
+    margin: 0 auto;
+    border: 1px solid;
+    border-color: #fa7743;
+    background-color: rgb(252, 227, 232);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 30rem;;
+    height: 1.2rem;
+    color: rgb(0, 68, 255);
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 button:disabled {
